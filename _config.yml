@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 
-subtitle: ''
-description: ''
+title: Unlimited Galaxy
+subtitle: 'It’s because everyone’s different that it’s interesting!'
+description: 'All about Ryuseitai'
 keywords:
-author: 
+author: Unlimited Galaxy
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://unlimited-galaxy.github.io/
-root: 
+url: https://unlimited-galaxy.github.io
+root:
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -66,7 +66,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 15
+  per_page: 10
   order_by: -date
 
 # Category & Tag
@@ -89,7 +89,7 @@ updated_option: 'empty'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 15
+per_page: 10
 pagination_dir: page
 
 # Include / Exclude file(s)
@@ -109,12 +109,13 @@ theme_config:
   #scheme: Pisces
   scheme: Gemini
 
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/unlimited-galaxy/unlimited-galaxy.github.io
-  branch: master
+  branch: main
   message: "{{ now('MM/DD/YYYY HH:mm:ss') }}"
 
 marked:
@@ -122,8 +123,8 @@ marked:
   anchorAlias: true
 
 symbols_count_time:
-  symbols: false
-  time: false
+  symbols: true
+  time: true
 
 all_minifier: true
 
@@ -135,7 +136,7 @@ image_minifier:
   enable: false
 
 archive_generator:
-  per_page: 30
+  per_page: 20
 
 search:
   format: striptags
