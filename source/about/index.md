@@ -1,10 +1,11 @@
 ---
 title: About This Blog Site
-description: About Archive Blog. Typically found translating Enstars (Ensemble Stars).
+description: About this Archive Blog.
 ---
 
 ## Introduction
 
+In here I will be posting all my thoughts on Ensemble Stars, namely Ryuseitai. I'm a ChiakiP and MidoriP first and foremost, so I will be talking about Midori and Chiaki the most.
 
 ## Credits
 

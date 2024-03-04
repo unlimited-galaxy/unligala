@@ -10,7 +10,6 @@ table.lyrics td {
   border: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #F7F8F7;
 }
 
 table.lyrics td.name {
@@ -48,14 +47,26 @@ table.lyrics .timestamp {
   color: #828282;
 }
 
-.darkmode--activated table.lyrics td {
-  background-color: #333333;
-}
-
-.darkmode--activated table.lyrics .tetora {
+[theme="darkmode"] table.lyrics .tetora {
   color: #B2B2B2;
 }
 
-.darkmode--activated table.lyrics .midori {
+[theme="darkmode"] table.lyrics .midori {
+  color: #0D9C79;
+}
+
+.theme.darkmode table.lyrics .tetora {
+  color: #B2B2B2;
+}
+
+.theme.darkmode table.lyrics .midori {
+  color: #0D9C79;
+}
+
+.dark table.lyrics .tetora {
+  color: #B2B2B2;
+}
+
+.dark table.lyrics .midori {
   color: #0D9C79;
 }
